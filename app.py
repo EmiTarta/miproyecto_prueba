@@ -5,5 +5,6 @@ fecha = datetime.now()
 
 fecha = str(datetime.now())[:19]
 
-print(pd.DataFrame({"fecha": [fecha]}))
+print(pd.DataFrame({"fecha": [fecha], 
+                    "Hola":"TuPrima"}))
 
